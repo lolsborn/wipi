@@ -18,8 +18,8 @@ func main() {
 	if r == 1 {
 		fmt.Println("wiringPiSetupGpio complete")
 	}
+	wipi.PinMode(BLINK_LED, wipi.OUTPUT)
 	for {
-		wipi.PinMode(BLINK_LED, wipi.OUTPUT)
 		wipi.DigitalWrite(BLINK_LED, wipi.HIGH)
 		time.Sleep(100 * time.Millisecond)
 		wipi.DigitalWrite(BLINK_LED, wipi.LOW)
