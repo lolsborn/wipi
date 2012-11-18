@@ -31,5 +31,3 @@ First build and install WiringPi.
 	|     15   |  14  | TxD    | High  |
 	|     16   |  15  | RxD    | High  |
 	+----------+------+--------+-------+
-
-	test
