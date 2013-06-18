@@ -7,7 +7,7 @@ First build and install WiringPi.
 
 	cd WiringPi/wiringPi
 	make
-	suod make install
+	sudo make install
 
 
 	+----------+------+--------+-------+
